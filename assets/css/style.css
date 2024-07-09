@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.btn{
+    background-color: brown;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+    
+   
+.contenedor {
+        display: flex;
+        justify-content: space-between; /* Espacio entre los divs */
+        padding: 8px; /* Padding del contenedor */
+        background-color: #f0f0f0; /* Color de fondo del contenedor */
+        width: 210px;
+        height: 210px;
+    }
+    
+    /* Estilos para los divs */
+    .caja {
+        
+        background-color: #ffffff; /* Color de fondo de los divs */
+        color: rgb(3, 0, 0); /* Color del texto */
+        
+        margin: 0px; /* Margen alrededor de los divs */
+        flex: 1; /* Hacer que los divs crezcan para llenar el contenedor */
+        text-align: center; /* Centrar el texto dentro de los divs */
+    }
+
+    .contenedor2 {
+        display: flex;
+        justify-content: space-between; /* Espacio entre los divs */
+        padding: 8px; /* Padding del contenedor */
+        background-color: #f0f0f0; /* Color de fondo del contenedor */
+       
+    }
+    
+    /* Estilos para los divs */
+    .caja2 {
+        
+        background-color: #ffffff; /* Color de fondo de los divs */
+        color: white; /* Color del texto */
+        padding: 20px; /* Padding interno de los divs */
+        margin: 10px; /* Margen alrededor de los divs */
+        flex: 1; /* Hacer que los divs crezcan para llenar el contenedor */
+        text-align: center; /* Centrar el texto dentro de los divs */
+    }
